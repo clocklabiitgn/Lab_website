@@ -21,7 +21,7 @@
       piScholar: '',
       piEmail: 'ashutosh.s@iitgn.ac.in',
       joinText: 'We welcome candidates with a background in computer science, physics, bioinformatics or structural biology, with an inclination toward interdisciplinary research. Ph.D. positions are filled through the IIT Gandhinagar admissions process.',
-      hiringText: 'Postdoctoral Researcher — modeling protein complexes as networks',
+      hiringText: '',
       contactAddress: 'Biological Sciences & Engineering\nIIT Gandhinagar, Palaj\nGandhinagar, Gujarat 382055, India',
       contactEmail: 'ashutosh.s@iitgn.ac.in',
       accentColor: '#7fd8c8'
@@ -34,10 +34,10 @@
     members: [
       { name: 'Shashank Singh', category: 'PhD Student', bio: 'Builds large-scale ODE models of the plant circadian regulatory network to understand how feedback loops and environmental inputs generate robust ~24-hour rhythms and seasonal adaptation.', photo: '', linkedin: '', scholar: 'https://scholar.google.com/citations?user=BgdFXVMAAAAJ&hl=en', github: '', themes: ['clock', 'network'] },
       { name: 'Shriyansh Srivastava', category: 'PhD Student', bio: 'Explores how circadian rhythms, gene networks and muscle biology intersect — from small-molecule mechanisms to the structural interplay between MYOD1 and BMAL1.', photo: '', linkedin: 'https://www.linkedin.com/in/shriyansh-srivastava-shrey-he-him-372218126/', scholar: 'https://scholar.google.com/citations?user=yd78qMMAAAAJ&hl=en', github: '', themes: ['clock', 'structural', 'network'] },
-      { name: 'Karthick Sudarsanam', category: 'PhD Student', bio: 'Studies macromolecular structure and dynamics computationally, focused on the core clock transcription factor that regulates circadian rhythm.', photo: '', linkedin: 'https://www.linkedin.com/in/karthik-sudarsanam-8597a21a4/?originalSubdomain=in', scholar: 'https://scholar.google.com/citations?user=ZkWiIsYAAAAJ&hl=en', github: '', themes: ['clock', 'structural'] },
+      { name: 'Karthik Sudarsanam', category: 'PhD Student', bio: 'Studies macromolecular structure and dynamics computationally, focused on the core clock transcription factor that regulates circadian rhythm.', photo: '', linkedin: 'https://www.linkedin.com/in/karthik-sudarsanam-8597a21a4/?originalSubdomain=in', scholar: 'https://scholar.google.com/citations?user=ZkWiIsYAAAAJ&hl=en', github: '', themes: ['clock', 'structural'] },
       { name: 'Yashasvi Rao', category: 'PhD Student', bio: 'Uses molecular dynamics and wet-lab methods to compare ligand-bound and unbound REV-ERB isoform structures, refining how these nuclear receptors act as repressors.', photo: '', linkedin: '', scholar: '', github: '', themes: ['clock', 'structural'] },
       { name: 'Pooja Roham', category: 'PhD Student', bio: 'Studies the circadian clock as a target in oral cancer, combining computational and experimental approaches toward better treatment and diagnosis.', photo: '', linkedin: '', scholar: '', github: '', themes: ['clock', 'structural'] },
-      { name: 'Prithvi Gollakota', category: 'PhD Student', bio: 'Runs all-atom molecular dynamics simulations of Tau aggregation in Tauopathies, aiming to identify small-molecule modulators that disrupt aggregation pathways.', photo: '', linkedin: 'https://in.linkedin.com/in/gollakota-prithvinath-5b912a12a', scholar: '', github: '', themes: ['structural'] },
+      { name: 'Prithvinath Gollakota', category: 'PhD Student', bio: 'Runs all-atom molecular dynamics simulations of Tau aggregation in Tauopathies, aiming to identify small-molecule modulators that disrupt aggregation pathways.', photo: '', linkedin: 'https://in.linkedin.com/in/gollakota-prithvinath-5b912a12a', scholar: '', github: '', themes: ['structural'] },
       { name: 'Shreya', category: 'M.Tech Student', bio: 'Investigates the activation mechanism of the allatostatin receptor, an insect GPCR and emerging pest-control target, using molecular dynamics and docking.', photo: '', linkedin: '', scholar: '', github: '', themes: ['structural'] },
       { name: 'Bibhu Sahoo', category: 'M.Tech Student', bio: 'Develops ODE and nonlinear-dynamics models of plant gene regulatory networks to understand their response to natural light and temperature.', photo: '', linkedin: '', scholar: '', github: '', themes: ['clock', 'network'] },
       { name: 'Kaushal S', category: 'M.Tech Student', bio: 'Studies REV-ERB protein structure and interaction mechanisms, combining computational biology with drug-design approaches.', photo: '', linkedin: 'https://www.linkedin.com/in/kaushal-s-68952025a/', scholar: '', github: '', themes: ['clock', 'structural'] }
@@ -70,8 +70,7 @@
       { year: '2014', title: 'Thermostability of In Vitro Evolved Bacillus subtilis Lipase A: A Network and Dynamics Perspective', authors: 'Srivastava A, Sinha S', journal: 'PLoS ONE, 9(8), e102856', link: '', themes: ['network', 'structural'] }
     ],
     news: [
-      { date: '2024', title: 'Review on mathematical models of the plant circadian clock published in Plant Molecular Biology', link: 'https://doi.org/10.1007/s11103-024-01493-2' },
-      { date: '2024', title: 'New preprint on REV-ERBβ binding-pocket dynamics for small-molecule design', link: 'https://doi.org/10.1101/2024.04.13.589008' }
+      
     ]
   };
 
