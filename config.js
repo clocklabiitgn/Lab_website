@@ -10,5 +10,5 @@
    Leave it empty ("") and the site simply shows its built-in content.
    ========================================================================= */
 window.CLOCK_CONFIG = {
-  sheetId: "https://docs.google.com/spreadsheets/d/11sR609bNQTCw51sLuw5yJSuq8EkIJP8ryIzus8qapSQ/edit?usp=sharing"
+  sheetId: "11sR609bNQTCw51sLuw5yJSuq8EkIJP8ryIzus8qapSQ"
 };
