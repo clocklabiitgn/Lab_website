@@ -98,7 +98,7 @@
     if (c.indexOf('postdoc') > -1) return 'Postdoctoral Researcher';
     if (c.indexOf('phd') > -1 || c.indexOf('ph.d') > -1) return 'PhD Scholar';
     if (c.indexOf('tech') > -1) return 'M.Tech Student';
-    if (c.indexOf('intern') > -1) return 'Research Intern';
+    if (c.indexOf('staff') > -1) return 'Research Staff';
     return cat || 'Member';
   }
   function groupOf(cat) {
@@ -106,14 +106,14 @@
     if (c.indexOf('postdoc') > -1) return 'postdoc';
     if (c.indexOf('phd') > -1 || c.indexOf('ph.d') > -1) return 'phd';
     if (c.indexOf('tech') > -1) return 'mtech';
-    if (c.indexOf('intern') > -1) return 'intern';
+    if (c.indexOf('staff') > -1) return 'staff';
     return 'other';
   }
   var GROUP_ORDER = [
     { key: 'postdoc', label: 'Postdoctoral Researchers' },
     { key: 'phd', label: 'PhD Scholars' },
     { key: 'mtech', label: 'M.Tech Students' },
-    { key: 'intern', label: 'Research Interns' },
+    { key: 'staff', label: 'Research Staff' },
     { key: 'other', label: 'Members' }
   ];
 
