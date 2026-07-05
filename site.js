@@ -18,6 +18,7 @@
       piRole: 'Principal Investigator',
       piBio: 'Works at the interface of structural biology, biophysics and computation to understand circadian rhythms and the dynamics of macromolecular complexes.',
       piPhoto: '',
+      groupPhoto: '',
       piScholar: '',
       piEmail: 'ashutosh.s@iitgn.ac.in',
       joinText: 'We welcome candidates with a background in computer science, physics, bioinformatics or structural biology, with an inclination toward interdisciplinary research. Ph.D. positions are filled through the IIT Gandhinagar admissions process.',
@@ -203,6 +204,13 @@
 
   function renderPeople() {
     var h = CONTENT.home || {};
+    var gp = $('group-photo');
+    if (h.groupPhoto) {
+      gp.innerHTML = '<img src="' + esc(h.groupPhoto) + '" alt="The CLOCK Lab group">';
+      gp.style.display = 'block';
+    } else {
+      gp.innerHTML = ''; gp.style.display = 'none';
+    }
     $('pi-row').innerHTML =
       avatarHTML(h.piName, h.piPhoto, 'pi-avatar') +
       '<div class="pi-info">' +
