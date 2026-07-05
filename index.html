@@ -98,6 +98,8 @@
   .chip:hover { background: rgba(168,118,60,.22); }
 
   /* people */
+  .group-photo { display: none; width: 100%; border-radius: 18px; overflow: hidden; margin-bottom: 36px; }
+  .group-photo img { width: 100%; max-height: 420px; object-fit: cover; display: block; }
   .pi-row { display: flex; gap: 28px; align-items: center; padding-bottom: 36px; margin-bottom: 36px; border-bottom: 1px solid rgba(168,118,60,.18); flex-wrap: wrap; }
   .avatar { flex-shrink: 0; border-radius: 50%; object-fit: cover; background: linear-gradient(135deg, #e4d7bf, #cbb894); display: flex; align-items: center; justify-content: center; font-family: var(--serif); color: #6b5836; font-weight: 700; }
   .pi-avatar { width: 150px; height: 150px; font-size: 46px; }
@@ -232,6 +234,7 @@
   <div class="card" id="people">
     <div class="kicker">PEOPLE</div>
     <h2 class="h">The group</h2>
+    <div class="group-photo" id="group-photo"></div>
     <div class="pi-row" id="pi-row"></div>
     <div id="people-groups"></div>
     <div class="alumni-wrap" id="alumni-wrap"></div>
